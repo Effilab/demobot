@@ -2,7 +2,7 @@
   "branchPrefix": "bot-",
   "packageRules": [
     {
-      "matchCurrentVersion": "/^v?[~ -]?0/",
+      "matchCurrentVersion": "/^[v~ >^=-]*0\\./",
       "groupName": "betas can break",
       "description": "according semver spec, version <1 can introduce breaking changes on each rel",
       "automerge": false
