@@ -11,7 +11,7 @@ GEM
     opentelemetry-instrumentation-rack (0.19.3)
       opentelemetry-api (~> 1.0)
       opentelemetry-instrumentation-base (~> 0.18.3)
-    pg (1.1.4)
+    pg (1.4.3)
 
 PLATFORMS
   x86_64-darwin-19
@@ -19,7 +19,7 @@ PLATFORMS
 
 DEPENDENCIES
   opentelemetry-instrumentation-action_pack (= 0.1.0)
-  pg (~> 1.1.0)
+  pg (~> 1.4.0)
 
 BUNDLED WITH
    2.2.32
