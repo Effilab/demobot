@@ -5,5 +5,5 @@ source "https://rubygems.org"
 gem "pg", "~> 1.1.0"
 
 # Tracing
-gem "opentelemetry-instrumentation-action_pack", "0.1.0"
+gem "opentelemetry-instrumentation-action_pack", "0.2.1"
 
